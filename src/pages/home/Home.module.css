@@ -1,12 +1,10 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 6rem;
-  flex: 1;
+  padding: 66px 271px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .categoryButtonContainer {
