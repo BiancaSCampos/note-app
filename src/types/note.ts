@@ -3,4 +3,5 @@ export type Note = {
   date: string;
   content: string;
   category: string;
+  completed: boolean;
 };
