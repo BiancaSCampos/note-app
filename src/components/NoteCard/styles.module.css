@@ -1,0 +1,40 @@
+.noteContainer{
+    display: flex;
+    width: 404px;
+    height: 174px;
+    border-radius: 5px;
+    padding: 15px;
+ flex-direction: column;
+ 
+}
+
+.containerHeaderNote{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.containerTitleNote{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    align-items: center;
+}
+
+.containerButtons{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    align-items: center;
+}
+
+.containerContent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+   
+}
