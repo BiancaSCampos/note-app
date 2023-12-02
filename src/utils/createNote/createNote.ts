@@ -2,17 +2,9 @@ import { Note } from "../../types/note";
 
 const notes: Note[] = [];
 
-const createNote = () => {
-  // // const { title, date, content, category } = params;
-  // const note = { title: "oi", date: "blá", content: "blá", category: "blá" };
-  // // notes.push({
-  // //   title,
-  // //   date,
-  // //   content,
-  // //   category,
-  // // });
-  // notes.push(note);
-  // console.log(notes);
+const createNote = (note: Note, notes: Note[]) => {
+  notes.push(note);
+  localStorage.setItem("notes", JSON.stringify(notes));
 };
 
 export default createNote;
